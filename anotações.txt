@@ -1,0 +1,16 @@
+#smp que alterar o código no vscode para atualizar na vm, rodar:
+
+cd /media/sf_vm_pasta_compartilhada
+cp mind_scan.sh ~/
+cp mind_analyzer.py ~/
+cp mind_sanitize_users.sh ~/
+cd ~
+sudo ./mind_scan.sh
+sudo python3 mind_analyzer.py /var/log/mind/mind_scan_*.json
+sudo ./mind_sanitize_users.sh --csv usuarios.csv --dry-run
+# -----------------------------# -----------------------------
+
+ALIAS PARA RODAR O SCRIPT:
+
+nano ~/.bashrc
+

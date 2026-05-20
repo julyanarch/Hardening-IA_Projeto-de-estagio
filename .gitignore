@@ -1,0 +1,22 @@
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs e saidas locais
+*.log
+mind_scan_*.txt
+mind_scan_*.json
+mind_risk_*.json
+mind_sanitize_users_*.txt
+mind_sanitize_users_*.json
+
+# CSVs de chamados podem conter dados sensiveis
+*.csv
+
