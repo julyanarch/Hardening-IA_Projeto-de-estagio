@@ -11,8 +11,13 @@ venv/
 
 # Logs e saidas locais
 *.log
+mind_scan_*.txt
+mind_scan_*.json
+mind_risk_*.json
 mind_access_sync_*.txt
 mind_access_sync_*.json
+mind_sanitize_users_*.txt
+mind_sanitize_users_*.json
 mind_outputs/
 
 # Planilhas e exportacoes antigas nao devem ser publicadas por engano
